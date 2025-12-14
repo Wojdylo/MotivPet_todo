@@ -31,8 +31,8 @@ const AppContent: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto h-screen bg-white shadow-2xl overflow-hidden relative border-x border-gray-200">
-       {/* This container simulates the mobile viewport width on desktop */}
+    <div className="w-full h-screen bg-white overflow-hidden relative">
+       {/* Full screen mobile-first design */}
        {renderView()}
     </div>
   );
