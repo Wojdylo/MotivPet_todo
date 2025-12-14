@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#6366f1" rx="86"/>
+  <circle cx="256" cy="200" r="85" fill="#ffffff"/>
+  <circle cx="230" cy="185" r="12" fill="#000000"/>
+  <circle cx="282" cy="185" r="12" fill="#000000"/>
+  <path d="M 230 215 Q 256 230 282 215" stroke="#000000" stroke-width="5" fill="none"/>
+  <ellipse cx="256" cy="350" rx="106" ry="75" fill="#ffffff"/>
+  <ellipse cx="200" cy="380" rx="21" ry="32" fill="#ffffff"/>
+  <ellipse cx="312" cy="380" rx="21" ry="32" fill="#ffffff"/>
+  <text x="256" y="470" font-family="Arial" font-size="42" fill="#ffffff" text-anchor="middle" font-weight="bold">MotivPet</text>
+</svg>
