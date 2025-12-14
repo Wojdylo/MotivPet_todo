@@ -5,8 +5,10 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
+    const isCapacitor = process.env.CAPACITOR === 'true';
+    
     return {
-      base: '/MotivPet_todo/',
+      base: isCapacitor ? './' : '/MotivPet_todo/',
       server: {
         port: 3000,
         host: '0.0.0.0',

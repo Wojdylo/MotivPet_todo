@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MotivPet</string>
+    <string name="title_activity_main">MotivPet</string>
+    <string name="package_name">com.wojdylo.motivipet</string>
+    <string name="custom_url_scheme">com.wojdylo.motivipet</string>
+</resources>
